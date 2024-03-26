@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+.condiment-regular {
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.navIcon{
+   width: 90px;
+   height: 80px;
+   object-fit: contain;
+   mix-blend-mode:color-burn;
+}
+.navbar{
+    background-color: #e7a300;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:#f9ffa1;
+}
+.hemburger{
+    color: black;
+    
+}
+.off-color{
+    background-color: #e7a300;
+}
+.off-color1{
+    color:#f9ffa1;
+}
+.name-width{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.offcanvas-body{
+    background-color: #596164;
+}
+.off-text-color{
+    color: #f9ffa1;
+}
+.all-chept{
+    /* background-color: #f9ffa1; */
+    font-weight: 700;
+}
+.body-img{
+    background-image: url(../imgas/9cd3d9cd4f6a82f1452c82f9fa03fee6.png);
+    /* background-image: url(../imgas/background.jpeg); */
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
